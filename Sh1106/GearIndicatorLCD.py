@@ -1,6 +1,8 @@
 import smbus
 import time
 from PIL import Image
+import traceback
+import os
 
 
 """
@@ -57,8 +59,11 @@ class GearIndicatorLCD():
         #Import startup image from disk.
         self.subaruLogo = self.LCDImage("subie_logo.bmp")
 
+
         #Import gear indicator images from disk
-        self.firstGearImage = self.LCDImage("shift_1_sized.bmp")
+        self.image_path = os.getcwd()
+        print self.image_path
+        self.firstGearImage = self.LCDImage(self.image_path + "shift_1_sized.bmp")
         self.secondGearImage = self.LCDImage("shift_2_sized.bmp")
         self.thirdGearImage = self.LCDImage("shift_3_sized.bmp")
         self.fourthGearImage = self.LCDImage("shift_4_sized.bmp")
@@ -141,7 +146,7 @@ class GearIndicatorLCD():
                 page = 0xB0 + i
                 self.__sendCommand(page)
                 for i in range(132):
-                        self.sendDataByte(0x00)
+                        self.__sendDataByte(0x00)
                 self.__sendCommand(0x00)	 #reset column address
                 self.__sendCommand(0x10)	 #reset column address
 
@@ -250,7 +255,8 @@ class GearIndicatorLCD():
                 raise ValueError("Gear selection must be within 0 to 5.")
 
         except ValueError as e:
-            print "Value Error: ", e.value
+            print "Value Error: "
+            traceback.print_exc()
 
         #Specific offset for the size of the gear indicator images.  Ensures digits are centered.
         self.__sendCommand(0x13)	 #set upper 4 bits of column offset
@@ -349,9 +355,11 @@ class GearIndicatorLCD():
                     output.append(temp)
 
             except IOError as e:
-                print "I/O error({0}): {1}".format(e.errno, e.strerror)
+                print "I/O error: Could no open file: " + filename
+                traceback.print_exc()
             except ValueError as e:
-                print "Value Error: ", e.value
+                print "Value Error: "
+                traceback.print_exc()
 
             return output
 
