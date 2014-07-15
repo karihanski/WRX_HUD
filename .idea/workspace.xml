@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sh1106/GearIndicatorLCD.py" afterPath="$PROJECT_DIR$/Sh1106/GearIndicatorLCD.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HUDMain.py" afterPath="$PROJECT_DIR$/HUDMain.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WRX_HUD.iws" />
@@ -26,23 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HUDMain.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HUDMain.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HUDMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.35416666" vertical-offset="0" max-vertical-offset="960">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
-                <marker date="1405389221096" expanded="true" signature="0:109" placeholder="import ..." />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GearIndicatorLCD.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GearIndicatorLCD.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sh1106/GearIndicatorLCD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2125" vertical-offset="799" max-vertical-offset="6341">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="6341">
+              <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -89,8 +89,8 @@
         <option value="$PROJECT_DIR$/wide_hk/WideHKOLED.py" />
         <option value="$PROJECT_DIR$/wide_hk/__init__.py" />
         <option value="$PROJECT_DIR$/GearInidicator/GearIndicatorLCD.py" />
-        <option value="$PROJECT_DIR$/HUDMain.py" />
         <option value="$PROJECT_DIR$/Sh1106/GearIndicatorLCD.py" />
+        <option value="$PROJECT_DIR$/HUDMain.py" />
       </list>
     </option>
   </component>
@@ -344,7 +344,11 @@
       <created>1405390341532</created>
       <updated>1405390341532</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bug fix for filenames, again">
+      <created>1405390499630</created>
+      <updated>1405390499630</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -409,7 +413,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding>
-            <marker date="1405389221096" expanded="true" signature="0:109" placeholder="import ..." />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -454,16 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HUDMain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <marker date="1405389221096" expanded="true" signature="0:109" placeholder="import ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WideHKOLED/WideHKOLED.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1987" max-vertical-offset="2890">
@@ -474,10 +468,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sh1106/GearIndicatorLCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2125" vertical-offset="799" max-vertical-offset="6341">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="6341">
+          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HUDMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35416666" vertical-offset="0" max-vertical-offset="960">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
