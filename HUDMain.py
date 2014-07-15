@@ -1,6 +1,6 @@
-from GearInidicator import GearIndicatorLCD
+from Sh1106.GearIndicatorLCD import *
 from I2CConfig import *
-from WideHKOLED import WideHKOLED
+from WideHKOLED.WideHKOLED import *
 import time
 
 if __name__=="__main__":
