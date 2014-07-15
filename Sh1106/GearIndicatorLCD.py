@@ -57,18 +57,18 @@ class GearIndicatorLCD():
         self.OLED_Data_Mode = 0x40
 
         #Import startup image from disk.
-        self.subaruLogo = self.LCDImage("subie_logo.bmp")
+        self.image_path = os.getcwd()
+        self.subaruLogo = self.LCDImage(self.image_path + "/subie_logo.bmp")
 
 
         #Import gear indicator images from disk
-        self.image_path = os.getcwd()
         print self.image_path
-        self.firstGearImage = self.LCDImage(self.image_path + "shift_1_sized.bmp")
-        self.secondGearImage = self.LCDImage("shift_2_sized.bmp")
-        self.thirdGearImage = self.LCDImage("shift_3_sized.bmp")
-        self.fourthGearImage = self.LCDImage("shift_4_sized.bmp")
-        self.fifthGearImage = self.LCDImage("shift_5_sized.bmp")
-        self.neutralImage = self.LCDImage("shift_N_sized.bmp")
+        self.firstGearImage = self.LCDImage(self.image_path + "/shift_1_sized.bmp")
+        self.secondGearImage = self.LCDImage(self.image_path + "/shift_2_sized.bmp")
+        self.thirdGearImage = self.LCDImage(self.image_path + "/shift_3_sized.bmp")
+        self.fourthGearImage = self.LCDImage(self.image_path + "/shift_4_sized.bmp")
+        self.fifthGearImage = self.LCDImage(self.image_path + "/shift_5_sized.bmp")
+        self.neutralImage = self.LCDImage(self.image_path + "/shift_N_sized.bmp")
 
         #Initialize the screen.
         self.__initialize()
