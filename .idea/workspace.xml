@@ -41,8 +41,8 @@
       <file leaf-file-name="GearIndicatorLCD.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sh1106/GearIndicatorLCD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9125" vertical-offset="2839" max-vertical-offset="6341">
-              <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.2125" vertical-offset="799" max-vertical-offset="6341">
+              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -340,7 +340,11 @@
       <created>1405390162072</created>
       <updated>1405390162072</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Bug fix for filenames, again">
+      <created>1405390341532</created>
+      <updated>1405390341532</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -386,7 +390,8 @@
     <MESSAGE value="Refactored everything into proper classes." />
     <MESSAGE value="Finished test script" />
     <MESSAGE value="Bug fix for filenames" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fix for filenames" />
+    <MESSAGE value="Bug fix for filenames, again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fix for filenames, again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -469,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sh1106/GearIndicatorLCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9125" vertical-offset="2839" max-vertical-offset="6341">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.2125" vertical-offset="799" max-vertical-offset="6341">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
