@@ -104,20 +104,6 @@ if __name__ == '__main__':
 	# 				packet = connection.read_parameter(param)
 	# 				window.set_packets([packet])
 	#
-	# 			#ecu_response_packets = connection.read_parameters(ecu_params)
-	# 			#tcu_response_packets = connection.read_parameters(tcu_params)
-    #
-	# 			#param_no = 0
-	# 			#for ecu_packet in ecu_response_packets:
-	# 			#	param = ecu_params[param_no]
-	# 			#	window.set_value(param, ecu_packet)
-	# 			#	param_no += 1
-    #
-	# 			#param_no = 0
-	# 			#for tcu_packet in tcu_response_packets:
-	# 			#	param = tcu_params[param_no]
-	# 			#	window.set_value(param, tcu_packet)
-	# 			#	param_no += 1
     #
 	# 			screen.render()
     #

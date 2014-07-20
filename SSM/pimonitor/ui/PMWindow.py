@@ -40,9 +40,9 @@ class PMWindow(object):
 	
 	def render(self):
 		
-		first_row_height = self._title_font_size + self._value_font_size + 10
-		second_row_height = first_row_height + self._title_font_size + self._value_font_size + 20
-		pygame.draw.line(self._surface, self._fg_color, (0, first_row_height + 10), (self._width, first_row_height + 10))
+		# first_row_height = self._title_font_size + self._value_font_size + 10
+		# second_row_height = first_row_height + self._title_font_size + self._value_font_size + 20
+		# pygame.draw.line(self._surface, self._fg_color, (0, first_row_height + 10), (self._width, first_row_height + 10))
 
 		for param, value in self._dict.iteritems():
 			title = param.get_name() #+ " (" + param.get_default_unit() + ")"

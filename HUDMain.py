@@ -1,27 +1,12 @@
-# from Sh1106.GearIndicatorLCD import *
-# from I2CConfig import *
-# from WideHKOLED.WideHKOLED import *
-# from threading import Thread
+from Sh1106.GearIndicatorLCD import *
+from I2CConfig import *
+from WideHKOLED.WideHKOLED import *
 from SSM.pimonitor.PMXmlParser import *
 import traceback
 import time
 
 
-# def cycleGears():
-#     while True:
-#         for i in range(0,5):
-#             gearIndicator.displayGear(i)
-#             time.sleep(2)
-#
-# def flopText():
-#     while True:
-#         dataDisplay.sendString("HelloWorld", 0, 0)
-#         time.sleep(1)
-#         dataDisplay.clearScreen()
-#         dataDisplay.sendString("HelloWorld", 1, 0)
-#         time.sleep(1)
-#         dataDisplay.clearScreen()
-#
+
 # def concurrentTest():
 #     #Initialize Gear Indicator on I2C 1
 #     gearIndicator = GearIndicatorLCD()
@@ -67,7 +52,9 @@ if __name__=="__main__":
 
     connection = PMConnection()
 
-    while True:
+    init_finished = False
+
+    while not init_finished:
         try:
 
 
@@ -113,16 +100,16 @@ if __name__=="__main__":
             # each ID must be in a form P01 - first letter, then a number
             supported_parameters.sort(key=lambda p: int(p.get_id()[1:]), reverse=False)
 
-         #   print "==================================="
-          #  print "Supported Parameters Below:"
-           # print "==================================="
+            print "==================================="
+            print "Supported Parameters Below:"
+            print "==================================="
             #Print out the supported parameters
-            # for p in supported_parameters:
-            #     print p.to_string()
+            for p in supported_parameters:
+                print p.to_string()
 
-            #Find the rpm+
-            rpm_parameter = supported_parameters.get
-            packets = connection.read_parameters(parameters)
+            init_finished = True
+
+
 
         except IOError as e:
             traceback.print_exc()
@@ -132,5 +119,44 @@ if __name__=="__main__":
                 connection.close()
                 time.sleep(3)
             continue
+    """
+    P8 - engine rpm
+    P60 - current gear position
+    P93 - Wheel speed
+    P17 - Battery voltage
+    """
+    rpmParameter = 0
+    for p in supported_parameters:
+        if p.get_id == "P8":
+            rpmParameter = p
+
+
+    gearParameter = 0
+    for pi in supported_parameters:
+        if p.get_id == "P60":
+            gearParameter = p
+
+    gearDisplay = GearIndicatorLCD()
+    rpmDisplay = WideHKOLED()
+    oldGearPosition = 0
+    #loop and qeury the data
+    while True:
+        #Update gear position
+        gearPacket = connection.read_parameter(gearParameter)
+        gearPosition = gearParameter.get_value(gearPacket[0])
+        if gearPosition != oldGearPosition:
+            oldGearPosition = gearPosition
+            gearDisplay.displayGear(gearPosition)
+
+        #Update rpm
+        rpmPacket = connection.read_parameter(rpmParameter)
+        rpmString = str(rpmParameter.get_value(rpmPacket[0]))
+        #Pad out the string
+        if len(rpmString) < 4:
+            for i in range(0, 3-len(rpmString)):
+                rpmString = " " + rpmString
+        rpmDisplay.sendString(rpmString, 0, 0)
+
+        time.sleep(0.005)
 
     connection.close()
