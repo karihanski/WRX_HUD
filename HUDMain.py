@@ -42,14 +42,14 @@ if __name__=="__main__":
 
 
 
-
+    i2cConfig()
 
     parser = PMXmlParser()
 
     supported_parameters = []
-
+    print "starting parse"
     defined_parameters = parser.parse("logger_METRIC_EN_v131.xml")
-
+    print "finished parse"
     connection = PMConnection()
 
     init_finished = False
@@ -125,32 +125,21 @@ if __name__=="__main__":
     P93 - Wheel speed
     P17 - Battery voltage
     """
+    print "initialized connection"
     rpmParameter = 0
     for p in supported_parameters:
-        if p.get_id == "P8":
+	print p.get_id()
+        if p.get_id() == "P8":
             rpmParameter = p
 
 
-    gearParameter = 0
-    for pi in supported_parameters:
-        if p.get_id == "P60":
-            gearParameter = p
-
-    gearDisplay = GearIndicatorLCD()
     rpmDisplay = WideHKOLED()
-    oldGearPosition = 0
     #loop and qeury the data
     while True:
-        #Update gear position
-        gearPacket = connection.read_parameter(gearParameter)
-        gearPosition = gearParameter.get_value(gearPacket[0])
-        if gearPosition != oldGearPosition:
-            oldGearPosition = gearPosition
-            gearDisplay.displayGear(gearPosition)
 
         #Update rpm
         rpmPacket = connection.read_parameter(rpmParameter)
-        rpmString = str(rpmParameter.get_value(rpmPacket[0]))
+        rpmString = str(rpmParameter.get_value(rpmPacket))
         #Pad out the string
         if len(rpmString) < 4:
             for i in range(0, 3-len(rpmString)):
