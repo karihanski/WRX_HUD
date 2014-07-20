@@ -3,7 +3,7 @@
 # from WideHKOLED.WideHKOLED import *
 # from threading import Thread
 from SSM.pimonitor.PMXmlParser import *
-
+import traceback
 import time
 
 
@@ -113,18 +113,24 @@ if __name__=="__main__":
             # each ID must be in a form P01 - first letter, then a number
             supported_parameters.sort(key=lambda p: int(p.get_id()[1:]), reverse=False)
 
-            print "==================================="
-            print "Supported Parameters Below:"
-            print "==================================="
+         #   print "==================================="
+          #  print "Supported Parameters Below:"
+           # print "==================================="
             #Print out the supported parameters
-            for p in supported_parameters:
-                print p.to_string()
+            # for p in supported_parameters:
+            #     print p.to_string()
 
-            connection.close()
+            #Find the rpm+
+            rpm_parameter = supported_parameters.get
+            packets = connection.read_parameters(parameters)
 
         except IOError as e:
-            PM.log('I/O error: {0} {1}'.format(e.errno, e.strerror))
+            traceback.print_exc()
+            print "I/O error: {0} {1}".format(e.errno, e.strerror)
+
             if connection != None:
                 connection.close()
                 time.sleep(3)
             continue
+
+    connection.close()

@@ -6,7 +6,7 @@ Created on 29-03-2013
 import serial
 import time
 
-from pimonitor.PMPacket import PMPacket
+from SSM.pimonitor.PMPacket import PMPacket
 
 class PMConnection(object):
     '''

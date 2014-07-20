@@ -5,7 +5,7 @@ Created on 13-04-2013
 '''
 
 import os
-from pimonitor.PM import PM
+from SSM.pimonitor.PM import PM
 
 class PMUtils(object):
 	'''
