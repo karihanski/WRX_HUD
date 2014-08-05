@@ -1,6 +1,6 @@
-from Sh1106.GearIndicatorLCD import *
-from I2CConfig import *
-from WideHKOLED.WideHKOLED import *
+# from Sh1106.GearIndicatorLCD import *
+# from I2CConfig import *
+# from WideHKOLED.WideHKOLED import *
 from SSM.pimonitor.PMXmlParser import *
 import traceback
 import time
@@ -42,7 +42,7 @@ if __name__=="__main__":
 
 
 
-    i2cConfig()
+    #i2cConfig()
 
     parser = PMXmlParser()
 
@@ -100,12 +100,14 @@ if __name__=="__main__":
             # each ID must be in a form P01 - first letter, then a number
             supported_parameters.sort(key=lambda p: int(p.get_id()[1:]), reverse=False)
 
+            paramFile = open("supportedParameters","w")
             print "==================================="
             print "Supported Parameters Below:"
             print "==================================="
             #Print out the supported parameters
             for p in supported_parameters:
-                print p.to_string()
+                paramFile.write(p.to_string())
+                paramFile.write('\n')
 
             init_finished = True
 
@@ -127,25 +129,46 @@ if __name__=="__main__":
     """
     print "initialized connection"
     rpmParameter = 0
+    wheelSpeedParameter = 0
     for p in supported_parameters:
-	print p.get_id()
         if p.get_id() == "P8":
+            print "found rpm"
             rpmParameter = p
+        elif p.get_id() == "P9":
+            print "found speed"
+            wheelSpeedParameter = p
 
 
-    rpmDisplay = WideHKOLED()
+    #rpmDisplay = WideHKOLED()
     #loop and qeury the data
+
+    file = open("output.txt","w")
+
+    file.write("RPM, Speed, GearRatio")
     while True:
 
         #Update rpm
         rpmPacket = connection.read_parameter(rpmParameter)
-        rpmString = str(rpmParameter.get_value(rpmPacket))
-        #Pad out the string
-        if len(rpmString) < 4:
-            for i in range(0, 3-len(rpmString)):
-                rpmString = " " + rpmString
-        rpmDisplay.sendString(rpmString, 0, 0)
+        rpmString = rpmParameter.get_value(rpmPacket)
+        #Update wheel speed
+        speedPacket = connection.read_parameter(wheelSpeedParameter)
+        speedString = wheelSpeedParameter.get_value(speedPacket)
 
-        time.sleep(0.005)
+        #Update Gear Ratio
+        if float(speedString) >0:
+            gearRatio = float(rpmString)/float(speedString)
+            gearRatioString = str(gearRatio)
+
+            totalString = rpmString+", "+speedString+", "+gearRatioString
+            print totalString
+            file.write(totalString+'\n')
+
+        #Pad out the string
+        # if len(rpmString) < 4:
+        #     for i in range(0, 3-len(rpmString)):
+        #         rpmString = " " + rpmString
+        # rpmDisplay.sendString(rpmString, 0, 0)
+
+        time.sleep(0.05)
 
     connection.close()
