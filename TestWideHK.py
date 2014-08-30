@@ -1,5 +1,5 @@
 # from Sh1106.GearIndicatorLCD import *
-from Hardware.WideHKOLED.I2CConfig import *
+from Hardware.I2CConfig import *
 from Hardware.WideHKOLED.WideHKOLED import *
 
 import traceback
