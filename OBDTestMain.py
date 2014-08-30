@@ -1,33 +1,12 @@
-# from Sh1106.GearIndicatorLCD import *
-# from I2CConfig import *
-# from WideHKOLED.WideHKOLED import *
-
 import traceback
 import time
-
-
-
-
-import array
-import os
-import os.path
-import time
-import cPickle as pickle
-
-from SSM.pimonitor.PM import PM
 from SSM.pimonitor.PMConnection import PMConnection
-from SSM.pimonitor.PMPacket import PMPacket
-from SSM.pimonitor.PMParameter import PMParameter
-from SSM.pimonitor.PMUtils import PMUtils
 from SSM.pimonitor.PMXmlParser import PMXmlParser
 
-
-
-"""
-Used to sample the gear ratio in the car.  Testing purposes.
-"""
 if __name__=="__main__":
+
     parser = PMXmlParser()
+
     supported_parameters = []
     print "starting parse"
     defined_parameters = parser.parse("logger_METRIC_EN_v131.xml")
@@ -38,6 +17,8 @@ if __name__=="__main__":
 
     while not init_finished:
         try:
+
+
             connection.open()
             #Query ecu/tcu to see which parameters are supported.
             ecu_packet = connection.init(1)
@@ -91,6 +72,8 @@ if __name__=="__main__":
 
             init_finished = True
 
+
+
         except IOError as e:
             traceback.print_exc()
             print "I/O error: {0} {1}".format(e.errno, e.strerror)
@@ -114,8 +97,12 @@ if __name__=="__main__":
             print "found speed"
             wheelSpeedParameter = p
 
+
+    #rpmDisplay = WideHKOLED()
     #loop and qeury the data
+
     file = open("output.txt","w")
+
     file.write("RPM, Speed, GearRatio")
     while True:
 
@@ -131,17 +118,15 @@ if __name__=="__main__":
             gearRatio = float(rpmString)/float(speedString)
             gearRatioString = str(gearRatio)
 
+            #Pad out the string
+            if len(rpmString) < 4:
+                for i in range(0, 3-len(rpmString)):
+                    rpmString = " " + rpmString
+
             totalString = rpmString+", "+speedString+", "+gearRatioString
             print totalString
             file.write(totalString+'\n')
 
-        #Pad out the string
-        # if len(rpmString) < 4:
-        #     for i in range(0, 3-len(rpmString)):
-        #         rpmString = " " + rpmString
-        # rpmDisplay.sendString(rpmString, 0, 0)
-
         time.sleep(0.05)
 
     connection.close()
-

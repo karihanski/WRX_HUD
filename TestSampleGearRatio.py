@@ -1,24 +1,7 @@
-# from Sh1106.GearIndicatorLCD import *
-# from I2CConfig import *
-# from WideHKOLED.WideHKOLED import *
 
 import traceback
 import time
-
-
-
-
-import array
-import os
-import os.path
-import time
-import cPickle as pickle
-
-from SSM.pimonitor.PM import PM
 from SSM.pimonitor.PMConnection import PMConnection
-from SSM.pimonitor.PMPacket import PMPacket
-from SSM.pimonitor.PMParameter import PMParameter
-from SSM.pimonitor.PMUtils import PMUtils
 from SSM.pimonitor.PMXmlParser import PMXmlParser
 
 
@@ -26,6 +9,7 @@ from SSM.pimonitor.PMXmlParser import PMXmlParser
 """
 Used to sample the gear ratio in the car.  Testing purposes.
 """
+
 if __name__=="__main__":
     parser = PMXmlParser()
     supported_parameters = []
@@ -144,4 +128,3 @@ if __name__=="__main__":
         time.sleep(0.05)
 
     connection.close()
-
