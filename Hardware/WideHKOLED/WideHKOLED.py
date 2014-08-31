@@ -1,8 +1,8 @@
-import smbus
+import smbus  #Library is specific to the python distribution on Raspbian Linux
 import time
 
 #declare i2c specifics
-bus = smbus.SMBus(0)
+
 OLED_Address = 0x3c
 OLED_Command_Mode = 0x80
 OLED_Data_Mode = 0x40
@@ -15,6 +15,7 @@ Interface to the 16x2 OLED display sold by the ebay user wide-hk.
 class WideHKOLED():
     def __init__(self):
         self.__initialize()
+        self.__bus = smbus.SMBus(1)
 
     """
     Most of this was stripped from the sample arduino code that
@@ -131,7 +132,7 @@ class WideHKOLED():
     data sent will be a command
     """
     def __sendCommand(self, command):
-        bus.write_byte_data(OLED_Address, OLED_Command_Mode, command)
+        self.__bus.write_byte_data(OLED_Address, OLED_Command_Mode, command)
         time.sleep(0.005)
         
     """
@@ -143,7 +144,7 @@ class WideHKOLED():
     with the D/C Bit set HIGH to tell the OLED that the data is display data.
     """
     def __sendData(self, data):
-        bus.write_byte_data(OLED_Address, OLED_Data_Mode, data)
+        self.__bus.write_byte_data(OLED_Address, OLED_Data_Mode, data)
         time.sleep(0.005)
     
     """
@@ -157,7 +158,7 @@ class WideHKOLED():
     """
     
     def sendString(self, text, row, col):
-        #TODO: error checking to make sure the text will wither wrap or not accept something that's too long.
+        #TODO: error checking to make sure the text will either wrap or not accept something that's too long.
         self.setCursorPosition(row, col)
         for char in text:
             self.__sendData(int(hex(ord(char)), 16))

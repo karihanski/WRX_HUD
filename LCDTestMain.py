@@ -1,4 +1,4 @@
-from Hardware.Sh1106.SH1106LCD import *
+from Hardware.SH1106.SH1106LCD import *
 from Hardware.I2CConfig import *
 from Hardware.WideHKOLED.WideHKOLED import *
 
