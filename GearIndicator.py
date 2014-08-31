@@ -7,7 +7,7 @@ class GearIndicator():
     def __init__(self):
         #Set up second I2C bus
         i2cConfig()
-        self.lcd = SH1106LCD(0)
+        self.lcd = SH1106LCD()
 
         #Import startup image from disk.
         self.image_path = os.chdir("Hardware")

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/shift_1_sized.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/shift_2_sized.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/shift_3_sized.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/shift_4_sized.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/shift_5_sized.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/shift_N_sized.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/subie_logo.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/wrx_logo.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/SH1106/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GearIndicator.py" afterPath="$PROJECT_DIR$/GearIndicator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WRX_HUD.iws" />
@@ -40,8 +31,8 @@
           <file leaf-file-name="GearIndicator.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/GearIndicator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.0347826" vertical-offset="0" max-vertical-offset="1071">
-                  <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.16630435" vertical-offset="0" max-vertical-offset="1071">
+                  <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -111,8 +102,8 @@
         <option value="$PROJECT_DIR$/Hardware/Sh1106/SH1106LCD.py" />
         <option value="$PROJECT_DIR$/Hardware/WideHKOLED/WideHKOLED.py" />
         <option value="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" />
-        <option value="$PROJECT_DIR$/GearIndicator.py" />
         <option value="$PROJECT_DIR$/TestGearDisplay.py" />
+        <option value="$PROJECT_DIR$/GearIndicator.py" />
       </list>
     </option>
   </component>
@@ -445,12 +436,16 @@
       <created>1409455903487</created>
       <updated>1409455903487</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Refactored SH1106 and GearIndicator classes.  &#10;Added test for GearIndicator.">
+      <created>1409456146074</created>
+      <updated>1409456146074</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -458,7 +453,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -497,7 +492,8 @@
     <MESSAGE value="Testing serial cable in conjunction with LCDs" />
     <MESSAGE value="Restructuring of the packages.&#10;Abstraction of the hardware away from the HUD.&#10;Added test case for WideHKOLED.&#10;Added test case to poll gear ratio." />
     <MESSAGE value="Fixed location of I2Cconfig file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed location of I2Cconfig file." />
+    <MESSAGE value="Refactored SH1106 and GearIndicator classes.  &#10;Added test for GearIndicator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored SH1106 and GearIndicator classes.  &#10;Added test for GearIndicator." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GearIndicator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0347826" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.16630435" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
