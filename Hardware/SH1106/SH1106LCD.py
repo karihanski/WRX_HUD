@@ -259,9 +259,12 @@ class SH1106LCD():
     of the picture starts at the coordinates indicated by row and col.
     """
     def __displayProcessedImage(self, processedImage, row, col):
+
         print "step 1"
+
         try:
             #Ensure the picture will fit with the given column and row starting points.
+            print "ridiculous"
             if (processedImage.width + col > 132) or (processedImage.height/8 + row > 8):
                 raise ValueError("Picture is too large to fit on the screen with the supplied row/column: Width "
                                  + str(processedImage.width) + ", Height " + str(processedImage.height))
