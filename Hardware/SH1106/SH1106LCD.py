@@ -222,7 +222,6 @@ class SH1106LCD():
     internal buffer using the addImage method.
     """
     def displayBufferedImage(self, imageID, rowOffset, colOffset):
-        print "Attempting to display: " + imageID
         try:
             if imageID not in self.imageBuffer.keys():
                 raise ValueError(imageID + " not in the pre-processed image buffer.")
@@ -257,7 +256,6 @@ class SH1106LCD():
     def __displayProcessedImage(self, processedImage, row, col):
         try:
             #Ensure the picture will fit with the given column and row starting points.
-            print "ridiculous"
             if (processedImage.width + col > 132) or (processedImage.height/8 + row > 8):
                 raise ValueError("Picture is too large to fit on the screen with the supplied row/column: Width "
                                  + str(processedImage.width) + ", Height " + str(processedImage.height))
