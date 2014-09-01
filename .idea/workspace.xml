@@ -56,8 +56,8 @@
           <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.47624075" vertical-offset="4343" max-vertical-offset="6970">
-                  <caret line="282" column="15" selection-start-line="282" selection-start-column="15" selection-end-line="282" selection-end-column="15" />
+                <state vertical-scroll-proportion="0.69165784" vertical-offset="4343" max-vertical-offset="6987">
+                  <caret line="294" column="19" selection-start-line="294" selection-start-column="19" selection-end-line="294" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -535,7 +535,11 @@
       <created>1409593216672</created>
       <updated>1409593216672</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Change to gear indicator test">
+      <created>1409593266544</created>
+      <updated>1409593266544</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -977,8 +981,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47624075" vertical-offset="4343" max-vertical-offset="6970">
-          <caret line="282" column="15" selection-start-line="282" selection-start-column="15" selection-end-line="282" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.69165784" vertical-offset="4343" max-vertical-offset="6987">
+          <caret line="294" column="19" selection-start-line="294" selection-start-column="19" selection-end-line="294" selection-end-column="19" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

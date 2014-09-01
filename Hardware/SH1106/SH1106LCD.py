@@ -280,7 +280,7 @@ class SH1106LCD():
             upperColumnOffsetByte = (col >> 4) + 0x10
             print "step 3"
             #Display the image
-            """
+
             for i in range(8):
                 # Set column
                 self.__sendCommand(upperColumnOffsetByte)	 #set upper 4 bits of column offset
@@ -292,6 +292,7 @@ class SH1106LCD():
                 #The i2c bus can only take a maximum of 32 bytes of data at a time.  If the image is more than 32 pixels
                 # wide we need to break it into chunks.
                 print "before"
+                """
                 stream = imageData[i]
                 if(len(stream) > 32):
                     for i in xrange(0, len(stream), 32):
