@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Adam\Documents\GitHub\WRX_HUD\LCDTestMain.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GearIndicator.py" afterPath="$PROJECT_DIR$/GearIndicator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" afterPath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestGearDisplay.py" afterPath="$PROJECT_DIR$/TestGearDisplay.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WRX_HUD.iws" />
@@ -597,7 +593,11 @@
       <created>1409595644474</created>
       <updated>1409595644474</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="GearIndicator Testing Completion">
+      <created>1409597329242</created>
+      <updated>1409597329242</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
