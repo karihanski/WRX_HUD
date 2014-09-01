@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestGearDisplay.py" afterPath="$PROJECT_DIR$/TestGearDisplay.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WRX_HUD.iws" />
@@ -472,7 +471,11 @@
       <created>1409586394575</created>
       <updated>1409586394575</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Change to gear indicator test">
+      <created>1409586549761</created>
+      <updated>1409586549761</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -528,7 +531,8 @@
     <MESSAGE value="Fixed GearIndicator passing in i2c bus into SH1106 constructor." />
     <MESSAGE value="Small changes while testing Gear Indicator LCD" />
     <MESSAGE value="Changed an &quot;off by one&quot; issue in the dimension checking of the Sh1106 LCD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed an &quot;off by one&quot; issue in the dimension checking of the Sh1106 LCD" />
+    <MESSAGE value="Change to gear indicator test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change to gear indicator test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
