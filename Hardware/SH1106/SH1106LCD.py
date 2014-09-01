@@ -284,6 +284,7 @@ class SH1106LCD():
                 self.__sendCommand(page)
                 #The i2c bus can only take a maximum of 32 bytes of data at a time.  If the image is more than 32 pixels
                 # wide we need to break it into chunks.
+                print "before"
                 stream = imageData[i]
                 if(len(stream) > 32):
                     for i in xrange(0, len(stream), 32):
