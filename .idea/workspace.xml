@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" afterPath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestGearDisplay.py" afterPath="$PROJECT_DIR$/TestGearDisplay.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WRX_HUD.iws" />
@@ -44,20 +44,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="TestGearDisplay.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="TestGearDisplay.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/TestGearDisplay.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-                  <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.23020834" vertical-offset="0" max-vertical-offset="960">
+                  <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="SH1106LCD.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48095757" vertical-offset="4454" max-vertical-offset="6749">
+                <state vertical-scroll-proportion="-15.785714" vertical-offset="4454" max-vertical-offset="6749">
                   <caret line="288" column="44" selection-start-line="288" selection-start-column="44" selection-end-line="288" selection-end-column="44" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
@@ -113,9 +113,9 @@
         <option value="$PROJECT_DIR$/TestWideHK.py" />
         <option value="$PROJECT_DIR$/Hardware/Sh1106/SH1106LCD.py" />
         <option value="$PROJECT_DIR$/Hardware/WideHKOLED/WideHKOLED.py" />
-        <option value="$PROJECT_DIR$/TestGearDisplay.py" />
         <option value="$PROJECT_DIR$/GearIndicator.py" />
         <option value="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" />
+        <option value="$PROJECT_DIR$/TestGearDisplay.py" />
       </list>
     </option>
   </component>
@@ -468,7 +468,11 @@
       <created>1409583525479</created>
       <updated>1409583525479</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Changed an &quot;off by one&quot; issue in the dimension checking of the Sh1106 LCD">
+      <created>1409586394575</created>
+      <updated>1409586394575</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -889,14 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestGearDisplay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GearIndicator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32708332" vertical-offset="111" max-vertical-offset="1071">
@@ -909,11 +905,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48095757" vertical-offset="4454" max-vertical-offset="6749">
+        <state vertical-scroll-proportion="-15.785714" vertical-offset="4454" max-vertical-offset="6749">
           <caret line="288" column="44" selection-start-line="288" selection-start-column="44" selection-end-line="288" selection-end-column="44" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestGearDisplay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23020834" vertical-offset="0" max-vertical-offset="960">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
