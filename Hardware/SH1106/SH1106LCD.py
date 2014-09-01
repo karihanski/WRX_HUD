@@ -261,10 +261,6 @@ class SH1106LCD():
     of the picture starts at the coordinates indicated by row and col.
     """
     def __displayProcessedImage(self, processedImage, row, col):
-        print "This works"
-    """
-    def __displayProcessedImage(self, processedImage, row, col):
-
         print "step 1"
 
         try:
@@ -307,7 +303,7 @@ class SH1106LCD():
         except ValueError as e:
             print "Value Error: "
             traceback.print_exc()
-    """
+
 
 #==============================================================================================
 #        Internal Classes
