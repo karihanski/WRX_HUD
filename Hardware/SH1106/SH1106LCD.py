@@ -236,6 +236,8 @@ class SH1106LCD():
         except ValueError as e:
             print "Value Error: "
             traceback.print_exc()
+        except:
+            print "Caught random error"
 
 
 

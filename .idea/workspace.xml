@@ -57,8 +57,8 @@
           <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.27877507" vertical-offset="4105" max-vertical-offset="6885">
-                  <caret line="257" column="79" selection-start-line="257" selection-start-column="79" selection-end-line="257" selection-end-column="79" />
+                <state vertical-scroll-proportion="0.4403379" vertical-offset="3646" max-vertical-offset="6919">
+                  <caret line="239" column="39" selection-start-line="239" selection-start-column="39" selection-end-line="239" selection-end-column="39" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -504,7 +504,11 @@
       <created>1409591949295</created>
       <updated>1409591949295</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Change to gear indicator test">
+      <created>1409592427680</created>
+      <updated>1409592427680</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -946,8 +950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27877507" vertical-offset="4105" max-vertical-offset="6885">
-          <caret line="257" column="79" selection-start-line="257" selection-start-column="79" selection-end-line="257" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.4403379" vertical-offset="3646" max-vertical-offset="6919">
+          <caret line="239" column="39" selection-start-line="239" selection-start-column="39" selection-end-line="239" selection-end-column="39" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
