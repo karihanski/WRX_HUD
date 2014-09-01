@@ -292,7 +292,7 @@ class SH1106LCD():
 
                 stream = imageData[i]
                 if(len(stream) > 32):
-                    splitStream = self.__chunks(stream, 32)
+                    splitStream = self.__chunks(list(stream), 32)
                     for chunk in splitStream:
                         self.__sendData(chunk)
                 else:

@@ -57,8 +57,8 @@
           <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.24287222" vertical-offset="4836" max-vertical-offset="6987">
-                  <caret line="298" column="42" selection-start-line="298" selection-start-column="42" selection-end-line="298" selection-end-column="42" />
+                <state vertical-scroll-proportion="0.31467792" vertical-offset="4734" max-vertical-offset="6987">
+                  <caret line="296" column="46" selection-start-line="296" selection-start-column="46" selection-end-line="296" selection-end-column="46" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -556,7 +556,11 @@
       <created>1409594152507</created>
       <updated>1409594152507</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Added byte stream chunking">
+      <created>1409594195238</created>
+      <updated>1409594195238</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -999,8 +1003,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24287222" vertical-offset="4836" max-vertical-offset="6987">
-          <caret line="298" column="42" selection-start-line="298" selection-start-column="42" selection-end-line="298" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.31467792" vertical-offset="4734" max-vertical-offset="6987">
+          <caret line="296" column="46" selection-start-line="296" selection-start-column="46" selection-end-line="296" selection-end-column="46" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
