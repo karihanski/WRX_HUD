@@ -258,12 +258,13 @@ class SH1106LCD():
     of the picture starts at the coordinates indicated by row and col.
     """
     def __displayProcessedImage(self, processedImage, row, col):
+        print "step 1"
         try:
             #Ensure the picture will fit with the given column and row starting points.
             if (processedImage.width + col > 132) or (processedImage.height/8 + row > 8):
                 raise ValueError("Picture is too large to fit on the screen with the supplied row/column: Width "
                                  + str(processedImage.width) + ", Height " + str(processedImage.height))
-
+            print "step 2"
             #Get the raw data from the processed image
             imageData = processedImage.data
             # Calculate the command bytes to set the column address
@@ -272,7 +273,7 @@ class SH1106LCD():
             # Lower Address Nibble Command: 0 0 0 1 A7 A6 A5 A4
             lowerColumnOffsetByte = (col & 0x0F )
             upperColumnOffsetByte = (col >> 4) + 0x10
-
+            print "step 3"
             #Display the image
             for i in range(8):
                 # Set column
