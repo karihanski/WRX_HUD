@@ -262,13 +262,14 @@ class SH1106LCD():
     """
     def __displayProcessedImage(self, processedImage, row, col):
         print "step 1"
-        """
+
         try:
             #Ensure the picture will fit with the given column and row starting points.
             print "ridiculous"
             if (processedImage.width + col > 132) or (processedImage.height/8 + row > 8):
                 raise ValueError("Picture is too large to fit on the screen with the supplied row/column: Width "
                                  + str(processedImage.width) + ", Height " + str(processedImage.height))
+            """
             print "step 2"
             #Get the raw data from the processed image
             imageData = processedImage.data
@@ -299,13 +300,11 @@ class SH1106LCD():
                 print stream
                 for chunk in stream:
                     self.__sendData(chunk)
-        except:
-            "Caught random error"
-
+            """
         except ValueError as e:
             print "Value Error: "
             traceback.print_exc()
-        """
+
 
 
 
