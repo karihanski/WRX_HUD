@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GearIndicator.py" afterPath="$PROJECT_DIR$/GearIndicator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" afterPath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -58,8 +57,8 @@
           <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.048574444" vertical-offset="3837" max-vertical-offset="6630">
-                  <caret line="223" column="66" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="66" />
+                <state vertical-scroll-proportion="0.52587116" vertical-offset="3939" max-vertical-offset="6630">
+                  <caret line="261" column="42" selection-start-line="261" selection-start-column="42" selection-end-line="261" selection-end-column="42" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -461,7 +460,11 @@
       <created>1409582590928</created>
       <updated>1409582590928</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Small changes while testing Gear Indicator LCD">
+      <created>1409583300125</created>
+      <updated>1409583300125</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -515,7 +518,8 @@
     <MESSAGE value="Fixed location of I2Cconfig file." />
     <MESSAGE value="Refactored SH1106 and GearIndicator classes.  &#10;Added test for GearIndicator." />
     <MESSAGE value="Fixed GearIndicator passing in i2c bus into SH1106 constructor." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed GearIndicator passing in i2c bus into SH1106 constructor." />
+    <MESSAGE value="Small changes while testing Gear Indicator LCD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small changes while testing Gear Indicator LCD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -900,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.048574444" vertical-offset="3837" max-vertical-offset="6630">
-          <caret line="223" column="66" selection-start-line="223" selection-start-column="66" selection-end-line="223" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.52587116" vertical-offset="3939" max-vertical-offset="6630">
+          <caret line="261" column="42" selection-start-line="261" selection-start-column="42" selection-end-line="261" selection-end-column="42" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
