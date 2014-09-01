@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" afterPath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WRX_HUD.iws" />
@@ -57,8 +56,8 @@
           <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.31467792" vertical-offset="4309" max-vertical-offset="6970">
-                  <caret line="271" column="15" selection-start-line="271" selection-start-column="15" selection-end-line="271" selection-end-column="15" />
+                <state vertical-scroll-proportion="0.47624075" vertical-offset="4343" max-vertical-offset="6970">
+                  <caret line="282" column="15" selection-start-line="282" selection-start-column="15" selection-end-line="282" selection-end-column="15" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -532,7 +531,11 @@
       <created>1409592999416</created>
       <updated>1409592999416</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Change to gear indicator test">
+      <created>1409593216672</created>
+      <updated>1409593216672</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -974,8 +977,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31467792" vertical-offset="4309" max-vertical-offset="6970">
-          <caret line="271" column="15" selection-start-line="271" selection-start-column="15" selection-end-line="271" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.47624075" vertical-offset="4343" max-vertical-offset="6970">
+          <caret line="282" column="15" selection-start-line="282" selection-start-column="15" selection-end-line="282" selection-end-column="15" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

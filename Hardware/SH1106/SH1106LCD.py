@@ -269,7 +269,6 @@ class SH1106LCD():
             if (processedImage.width + col > 132) or (processedImage.height/8 + row > 8):
                 raise ValueError("Picture is too large to fit on the screen with the supplied row/column: Width "
                                  + str(processedImage.width) + ", Height " + str(processedImage.height))
-            """
             print "step 2"
             #Get the raw data from the processed image
             imageData = processedImage.data
@@ -281,6 +280,7 @@ class SH1106LCD():
             upperColumnOffsetByte = (col >> 4) + 0x10
             print "step 3"
             #Display the image
+            """
             for i in range(8):
                 # Set column
                 self.__sendCommand(upperColumnOffsetByte)	 #set upper 4 bits of column offset
