@@ -236,9 +236,6 @@ class SH1106LCD():
         except ValueError as e:
             print "Value Error: "
             traceback.print_exc()
-        except:
-            print "Caught random error"
-
 
 
     """
@@ -295,11 +292,9 @@ class SH1106LCD():
 
                 stream = imageData[i]
                 if(len(stream) > 32):
-                    splitStream = 0
-                    #for i in xrange(0, len(stream), 32):
-                    #    yield splitStream[i:i+32]
-                    #for i in splitStream:
-                    self.__sendData(imageData[i])
+                    splitStream = self.__chunks(stream)
+                    for chunk in splitStream:
+                        self.__sendData(chunk)
                 else:
                     self._sendData(stream)
 
@@ -309,6 +304,8 @@ class SH1106LCD():
             print "Value Error: "
             traceback.print_exc()
 
+    def __chunks(self, inList, chunkSize):
+        return [inList[i:i + chunkSize] for i in range(0, len[inList], chunkSize)]
 
 
 
