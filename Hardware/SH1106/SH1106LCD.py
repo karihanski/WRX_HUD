@@ -305,7 +305,8 @@ class SH1106LCD():
             traceback.print_exc()
 
     def __chunks(self, inList, chunkSize):
-        return [inList[i:i + chunkSize] for i in range(0, len[inList], chunkSize)]
+        for i in xrange(0, len(inList), chunkSize):
+            yield inList[i:i+chunkSize]
 
 
 
