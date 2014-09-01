@@ -57,8 +57,8 @@
           <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.52587116" vertical-offset="3939" max-vertical-offset="6630">
-                  <caret line="261" column="42" selection-start-line="261" selection-start-column="42" selection-end-line="261" selection-end-column="42" />
+                <state vertical-scroll-proportion="0.48095757" vertical-offset="4454" max-vertical-offset="6749">
+                  <caret line="288" column="44" selection-start-line="288" selection-start-column="44" selection-end-line="288" selection-end-column="44" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -464,7 +464,11 @@
       <created>1409583300125</created>
       <updated>1409583300125</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changed an &quot;off by one&quot; issue in the dimension checking of the Sh1106 LCD">
+      <created>1409583525479</created>
+      <updated>1409583525479</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -519,7 +523,8 @@
     <MESSAGE value="Refactored SH1106 and GearIndicator classes.  &#10;Added test for GearIndicator." />
     <MESSAGE value="Fixed GearIndicator passing in i2c bus into SH1106 constructor." />
     <MESSAGE value="Small changes while testing Gear Indicator LCD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small changes while testing Gear Indicator LCD" />
+    <MESSAGE value="Changed an &quot;off by one&quot; issue in the dimension checking of the Sh1106 LCD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed an &quot;off by one&quot; issue in the dimension checking of the Sh1106 LCD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -904,8 +909,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52587116" vertical-offset="3939" max-vertical-offset="6630">
-          <caret line="261" column="42" selection-start-line="261" selection-start-column="42" selection-end-line="261" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.48095757" vertical-offset="4454" max-vertical-offset="6749">
+          <caret line="288" column="44" selection-start-line="288" selection-start-column="44" selection-end-line="288" selection-end-column="44" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

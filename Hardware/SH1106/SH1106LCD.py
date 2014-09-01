@@ -281,8 +281,15 @@ class SH1106LCD():
                 # Page command byte: 1 0 1 1 P4 P3 P2 P1
                 page = 0xB0 + i
                 self.__sendCommand(page)
+                #The i2c bus can only take a maximum of 32 bytes of data at a time.  If the image is more than 32 pixels
+                # wide we need to break it into chunks.
+                stream = imageData[i]
+                if(len(stream) > 32):
+                    for i in xrange(0, len(stream), 32):
+                        yield stream[i:i+32]
                 #Send a bytstream of all the data for each column in this row.  Column index auto-increments
-                self.__sendData(imageData[i])
+                for chunk in stream:
+                    self.__sendData(chunk)
 
         except ValueError as e:
             print "Value Error: "
