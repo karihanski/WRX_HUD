@@ -262,7 +262,7 @@ class SH1106LCD():
     """
     def __displayProcessedImage(self, processedImage, row, col):
         print "step 1"
-
+        """
         try:
             #Ensure the picture will fit with the given column and row starting points.
             print "ridiculous"
@@ -305,7 +305,7 @@ class SH1106LCD():
         except ValueError as e:
             print "Value Error: "
             traceback.print_exc()
-        """
+
 
 
 
