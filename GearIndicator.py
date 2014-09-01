@@ -23,7 +23,7 @@ class GearIndicator():
         self.lcd.addImage("WrxLogo", "wrx_logo.bmp")
         self.lcd.displayBufferedImage("SubaruLogo", 0, 0)
         time.sleep(2)
-        self.lcd.displayBufferedImage("SubaruLogo", 0, 0)
+        self.lcd.displayBufferedImage("WrxLogo", 0, 0)
         time.sleep(2)
         self.lcd.clearScreen()
 
