@@ -57,8 +57,8 @@
           <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.18901795" vertical-offset="4836" max-vertical-offset="6987">
-                  <caret line="295" column="45" selection-start-line="295" selection-start-column="45" selection-end-line="295" selection-end-column="45" />
+                <state vertical-scroll-proportion="0.24287222" vertical-offset="4836" max-vertical-offset="6987">
+                  <caret line="298" column="42" selection-start-line="298" selection-start-column="42" selection-end-line="298" selection-end-column="42" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -552,7 +552,11 @@
       <created>1409593561362</created>
       <updated>1409593561362</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Added byte stream chunking">
+      <created>1409594152507</created>
+      <updated>1409594152507</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -609,7 +613,8 @@
     <MESSAGE value="Small changes while testing Gear Indicator LCD" />
     <MESSAGE value="Changed an &quot;off by one&quot; issue in the dimension checking of the Sh1106 LCD" />
     <MESSAGE value="Change to gear indicator test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change to gear indicator test" />
+    <MESSAGE value="Added byte stream chunking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added byte stream chunking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -994,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18901795" vertical-offset="4836" max-vertical-offset="6987">
-          <caret line="295" column="45" selection-start-line="295" selection-start-column="45" selection-end-line="295" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.24287222" vertical-offset="4836" max-vertical-offset="6987">
+          <caret line="298" column="42" selection-start-line="298" selection-start-column="42" selection-end-line="298" selection-end-column="42" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
