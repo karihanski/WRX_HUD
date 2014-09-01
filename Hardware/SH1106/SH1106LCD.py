@@ -299,10 +299,14 @@ class SH1106LCD():
                 print stream
                 for chunk in stream:
                     self.__sendData(chunk)
-
+        except:
+            "Caught random error"
+        """
         except ValueError as e:
             print "Value Error: "
             traceback.print_exc()
+        """
+
 
 
 #==============================================================================================
