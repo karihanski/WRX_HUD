@@ -225,11 +225,12 @@ class SH1106LCD():
         print "Attempting to display: " + imageID
         try:
             image = 0
+            print "xx1"
             if imageID not in self.imageBuffer.keys():
                 raise ValueError(imageID + " not in the pre-processed image buffer.")
             else:
                 image = self.imageBuffer.get(imageID)
-
+            print "xx2"
             self.__displayProcessedImage(image, rowOffset, colOffset)
 
         except ValueError as e:
