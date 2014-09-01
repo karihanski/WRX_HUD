@@ -261,7 +261,7 @@ class SH1106LCD():
             #Ensure the picture will fit with the given column and row starting points.
             if (processedImage.width + col >= 132) or (processedImage.height/8 + row >= 8):
                 raise ValueError("Picture is too large to fit on the screen with the supplied row/column: Width "
-                                 + processedImage.width + ", Height " + processedImage.height)
+                                 + str(processedImage.width) + ", Height " + str(processedImage.height))
 
             #Get the raw data from the processed image
             imageData = processedImage.data
