@@ -18,7 +18,7 @@ class GearIndicator():
         self.lcd.addImage("FourthGear", "shift_4_sized.bmp")
         self.lcd.addImage("FifthGear", "shift_5_sized.bmp")
         self.lcd.addImage("Reverse", "shift_r_sized.bmp")
-        self.lcd.addImage("Neutral", "shift_r_sized.bmp")
+        self.lcd.addImage("Neutral", "shift_N_sized.bmp")
         self.lcd.addImage("SubaruLogo", "subie_logo.bmp")
         self.lcd.addImage("WrxLogo", "wrx_log.bmp")
         self.lcd.displayBufferedImage("SubaruLogo", 0, 0)
@@ -51,7 +51,7 @@ class GearIndicator():
             traceback.print_exc()
 
     def DisplayNeutral(self):
-        self.lcd.displayBufferedImage("Neutral")
+        self.lcd.displayBufferedImage("Neutral", 0, 50)
 
     def ClearScreen(self):
         self.lcd.clearScreen()
