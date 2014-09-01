@@ -475,7 +475,11 @@
       <created>1409586549761</created>
       <updated>1409586549761</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Change to gear indicator test">
+      <created>1409586553773</created>
+      <updated>1409586553773</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
