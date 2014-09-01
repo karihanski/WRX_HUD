@@ -31,8 +31,8 @@
           <file leaf-file-name="GearIndicator.py" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/GearIndicator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.46875" vertical-offset="111" max-vertical-offset="1071">
-                  <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.8229167" vertical-offset="111" max-vertical-offset="1071">
+                  <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -57,8 +57,8 @@
           <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.53009504" vertical-offset="4734" max-vertical-offset="7004">
-                  <caret line="308" column="39" selection-start-line="308" selection-start-column="39" selection-end-line="308" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.7455121" vertical-offset="4326" max-vertical-offset="7004">
+                  <caret line="296" column="44" selection-start-line="296" selection-start-column="44" selection-end-line="296" selection-end-column="44" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -564,7 +564,11 @@
       <created>1409594528765</created>
       <updated>1409594528765</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Added byte stream chunking">
+      <created>1409594943825</created>
+      <updated>1409594943825</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -997,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GearIndicator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46875" vertical-offset="111" max-vertical-offset="1071">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.8229167" vertical-offset="111" max-vertical-offset="1071">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1007,8 +1011,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53009504" vertical-offset="4734" max-vertical-offset="7004">
-          <caret line="308" column="39" selection-start-line="308" selection-start-column="39" selection-end-line="308" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.7455121" vertical-offset="4326" max-vertical-offset="7004">
+          <caret line="296" column="44" selection-start-line="296" selection-start-column="44" selection-end-line="296" selection-end-column="44" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

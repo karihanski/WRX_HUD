@@ -296,7 +296,7 @@ class SH1106LCD():
                     for chunk in splitStream:
                         self.__sendData(chunk)
                 else:
-                    self._sendData(stream)
+                    self.__sendData(stream)
 
 
 
