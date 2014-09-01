@@ -296,10 +296,10 @@ class SH1106LCD():
                 stream = imageData[i]
                 if(len(stream) > 32):
                     splitStream = 0
-                    for i in xrange(0, len(stream), 32):
-                        yield splitStream[i:i+32]
-                    for i in splitStream:
-                        self.__sendData(splitStream)
+                    #for i in xrange(0, len(stream), 32):
+                    #    yield splitStream[i:i+32]
+                    #for i in splitStream:
+                    self.__sendData(imageData[i])
                 else:
                     self._sendData(stream)
 
