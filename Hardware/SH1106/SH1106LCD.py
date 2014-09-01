@@ -288,6 +288,7 @@ class SH1106LCD():
                     for i in xrange(0, len(stream), 32):
                         yield stream[i:i+32]
                 #Send a bytstream of all the data for each column in this row.  Column index auto-increments
+                print stream
                 for chunk in stream:
                     self.__sendData(chunk)
 
