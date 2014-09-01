@@ -301,10 +301,11 @@ class SH1106LCD():
                     self.__sendData(chunk)
         except:
             "Caught random error"
-        """
+
         except ValueError as e:
             print "Value Error: "
             traceback.print_exc()
+        """
 
 
 
