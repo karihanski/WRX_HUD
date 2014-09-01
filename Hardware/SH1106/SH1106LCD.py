@@ -222,6 +222,7 @@ class SH1106LCD():
     internal buffer using the addImage method.
     """
     def displayBufferedImage(self, imageID, rowOffset, colOffset):
+        print "Attempting to display: " + imageID
         try:
             image = 0
             if imageID not in self.imageBuffer.keys():
