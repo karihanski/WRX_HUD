@@ -6,7 +6,7 @@ i2cConfig()
 lcd = SH1106LCD()
 lcd.setCursorPosition(0, 0)
 myFont = font1
-for i in range(0,130):
+for i in range(130,255):
     lcd.sendDataByte(myFont[i])
 
 
