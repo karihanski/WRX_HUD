@@ -176,6 +176,9 @@ class SH1106LCD():
     def __sendDataByte(self, dataByte):
         self.bus.write_byte_data(self.OLED_Address, self.OLED_Data_Mode, dataByte)
 
+    def sendDataByte(self, dataByte):
+        self.bus.write_byte_data(self.OLED_Address, self.OLED_Data_Mode, dataByte)
+
     """
     __sendData(data)
      

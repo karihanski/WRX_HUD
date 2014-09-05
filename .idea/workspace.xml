@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataDisplay.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/SH1106/SH1106FontLib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestSH1106FontTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hardware/shift_R_sized.bmp" afterPath="$PROJECT_DIR$/Hardware/shift_R_sized.bmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GearIndicator.py" afterPath="$PROJECT_DIR$/GearIndicator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM/pimonitor/PMConnection.py" afterPath="$PROJECT_DIR$/SSM/pimonitor/PMConnection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" afterPath="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestSH1106FontTest.py" afterPath="$PROJECT_DIR$/TestSH1106FontTest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WRX_HUD.iws" />
@@ -58,8 +54,8 @@
       <file leaf-file-name="SH1106LCD.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2637" max-vertical-offset="6732">
-              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2637" max-vertical-offset="6783">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,12 +115,12 @@
         <option value="$PROJECT_DIR$/TestWideHK.py" />
         <option value="$PROJECT_DIR$/Hardware/Sh1106/SH1106LCD.py" />
         <option value="$PROJECT_DIR$/Hardware/WideHKOLED/WideHKOLED.py" />
-        <option value="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" />
         <option value="$PROJECT_DIR$/TestGearDisplay.py" />
         <option value="$PROJECT_DIR$/DataDisplay.py" />
         <option value="$PROJECT_DIR$/SSM/pimonitor/PMConnection.py" />
         <option value="$PROJECT_DIR$/GearIndicator.py" />
         <option value="$PROJECT_DIR$/Hardware/SH1106/SH1106FontLib.py" />
+        <option value="$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py" />
         <option value="$PROJECT_DIR$/TestSH1106FontTest.py" />
       </list>
     </option>
@@ -633,13 +629,18 @@
       <created>1409597399372</created>
       <updated>1409597399372</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Added test for SH1106 Font">
+      <created>1409877481078</created>
+      <updated>1409877481078</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="2880" y="0" width="960" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -654,7 +655,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -693,7 +693,8 @@
     <MESSAGE value="Added byte stream chunking" />
     <MESSAGE value="GearIndicator Testing Completion" />
     <MESSAGE value="Added image for reverse gear&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added image for reverse gear&#10;" />
+    <MESSAGE value="Added test for SH1106 Font" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test for SH1106 Font" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1055,6 +1056,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106FontLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GearIndicator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
@@ -1065,18 +1074,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106FontLib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="6732">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2637" max-vertical-offset="6783">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
           <folding />
         </state>
       </provider>

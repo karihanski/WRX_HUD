@@ -7,6 +7,6 @@ lcd = SH1106LCD()
 lcd.setCursorPosition(0, 0)
 myFont = font1
 for i in range(0,130):
-    lcd.__sendDataByte(myFont[i])
+    lcd.sendDataByte(myFont[i])
 
 
