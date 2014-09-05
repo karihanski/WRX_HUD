@@ -9,6 +9,7 @@ lcd.setCursorPosition(0, 0)
 time.sleep(1)
 myFont = font2
 for i in myFont:
-    lcd.sendDataByte(i)
+    lcd.sendDataByte(0x00)
+    lcd.sendData(myFont[i])
 
 
