@@ -10,6 +10,6 @@ time.sleep(1)
 myFont = font2
 for i in myFont:
     lcd.sendDataByte(0x00)
-    lcd.sendData(myFont[i])
+    lcd.sendData(myFont)
 
 
