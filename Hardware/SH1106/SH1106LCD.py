@@ -291,7 +291,7 @@ class SH1106LCD():
                 else:
                     currentColumn = 0
                     currentRow += 1
-                    self.setCursorPostion(currentRow, currentColumn)
+                    self.setCursorPosition(currentRow, currentColumn)
 
 
     """
