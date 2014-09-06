@@ -39,8 +39,8 @@
       <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61195654" vertical-offset="4741" max-vertical-offset="8058">
-              <caret line="312" column="44" selection-start-line="312" selection-start-column="44" selection-end-line="312" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.575" vertical-offset="4741" max-vertical-offset="8058">
+              <caret line="310" column="45" selection-start-line="310" selection-start-column="45" selection-end-line="310" selection-end-column="45" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -685,7 +685,11 @@
       <created>1410039688965</created>
       <updated>1410039688965</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Implemented the ability to display an inverted string (as if highlighted).">
+      <created>1410044166739</created>
+      <updated>1410044166739</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1140,8 +1144,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61195654" vertical-offset="4741" max-vertical-offset="8058">
-          <caret line="312" column="44" selection-start-line="312" selection-start-column="44" selection-end-line="312" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.575" vertical-offset="4741" max-vertical-offset="8058">
+          <caret line="310" column="45" selection-start-line="310" selection-start-column="45" selection-end-line="310" selection-end-column="45" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

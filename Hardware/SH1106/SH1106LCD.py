@@ -308,7 +308,7 @@ class SH1106LCD():
         for c in displayString:
             #Get the ascii value and then subtract 32 as the font does not have any characters before the 32nd implemented.
             fontIndex = ord(c) - 32
-            bytestream = self.font[fontIndex] ^ 0xff
+            bytestream = self.font[fontIndex]
             for b in bytestream:
                 #invert the byte and send it
                 self.__sendDataByte(b ^ 0xff)
