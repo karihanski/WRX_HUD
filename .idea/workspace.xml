@@ -39,8 +39,8 @@
       <file leaf-file-name="SH1106LCD.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6304348" vertical-offset="4384" max-vertical-offset="7514">
-              <caret line="292" column="35" selection-start-line="292" selection-start-column="35" selection-end-line="292" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.5195652" vertical-offset="4384" max-vertical-offset="7514">
+              <caret line="286" column="36" selection-start-line="286" selection-start-column="36" selection-end-line="286" selection-end-column="36" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -673,7 +673,11 @@
       <created>1410038872752</created>
       <updated>1410038872752</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Fixed an offset problem in SH1106.setCursorPostion()&#10;Adding text wrapping to SH1106.displayString()">
+      <created>1410038928462</created>
+      <updated>1410038928462</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1127,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hardware/SH1106/SH1106LCD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6304348" vertical-offset="4384" max-vertical-offset="7514">
-          <caret line="292" column="35" selection-start-line="292" selection-start-column="35" selection-end-line="292" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.5195652" vertical-offset="4384" max-vertical-offset="7514">
+          <caret line="286" column="36" selection-start-line="286" selection-start-column="36" selection-end-line="286" selection-end-column="36" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

@@ -284,7 +284,7 @@ class SH1106LCD():
             currentColumn += 6
 
             #Wrap text to the next line if necessary.
-            if(currentColumn > 126):
+            if(currentColumn > 123):
                 #Bail out if you reach the bottom of the screen
                 if(currentRow >= 7):
                     return
