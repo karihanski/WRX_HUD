@@ -271,12 +271,12 @@ class SH1106LCD():
     """
     def displayString(self, inString, row, col):
         #Convert string to all caps as lower case characters are not implemented in the font.
-        inString.upper()
+        displayString = inString.upper()
         #Set the row/column position
         self.setCursorPosition(row, col)
         currentRow = row
         currentColumn = col
-        for c in inString:
+        for c in displayString:
             #Get the ascii value and then subtract 32 as the font does not have any characters before the 32nd implemented.
             fontIndex = ord(c) - 32
             self.__sendData(self.font[fontIndex])
