@@ -7,7 +7,7 @@ lcd = SH1106LCD()
 time.sleep(1)
 lcd.setCursorPosition(0, 0)
 time.sleep(1)
-myFont = font2
+myFont = capFont
 for i in myFont:
     lcd.sendDataByte(0x00)
     lcd.sendData(i)
