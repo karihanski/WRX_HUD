@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Adam\Documents\GitHub\WRX_HUD\Hardware\KeyPad\Keypad.py" afterPath="$PROJECT_DIR$/Hardware/Input/Keypad.py" />
-      <change type="MOVED" beforePath="C:\Users\Adam\Documents\GitHub\WRX_HUD\Hardware\KeyPad\__init__.py" afterPath="$PROJECT_DIR$/Hardware/Input/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestMenuAndButtons.py" afterPath="$PROJECT_DIR$/TestMenuAndButtons.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -55,9 +53,11 @@
           <file leaf-file-name="TestMenuAndButtons.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/TestMenuAndButtons.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
-                  <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-                  <folding />
+                <state vertical-scroll-proportion="0.11371238" vertical-offset="0" max-vertical-offset="897">
+                  <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -802,7 +802,11 @@
       <created>1410314070282</created>
       <updated>1410314070282</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Added test for buttons and menuing system.">
+      <created>1410314340171</created>
+      <updated>1410314340171</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1266,9 +1270,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestMenuAndButtons.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
-          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-          <folding />
+        <state vertical-scroll-proportion="0.11371238" vertical-offset="0" max-vertical-offset="897">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

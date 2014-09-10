@@ -1,7 +1,6 @@
 from Hardware.SH1106.SH1106LCD import *
-from Hardware.Input import Keypad
-from MenuSystem import MenuManager
-
+from Hardware.Input.Keypad import *
+from MenuSystem.MenuManager import *
 
 lcd = SH1106LCD()
 menu = MenuManager(lcd)
