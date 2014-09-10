@@ -27,25 +27,25 @@ class Keypad():
         GPIO.add_event_detect(backPin, GPIO.FALLING, callback=self.backButtonCallback)
         GPIO.add_event_detect(setPin, GPIO.FALLING, callback=self.setButtonCallback)
 
-    def upButtonCallback(self):
+    def upButtonCallback(self, channel):
         tempTime = time.time()
         if(tempTime - self.debounceTimestamp) >= 0.3:
             self.menuSystem.upButtonCallback()
         self.debounceTimestamp = tempTime
 
-    def downButtonCallback(self):
+    def downButtonCallback(self, channel):
         tempTime = time.time()
         if(tempTime - self.debounceTimestamp) >= 0.3:
             self.menuSystem.downButtonCallback()
         self.debounceTimestamp = tempTime
 
-    def backButtonCallback(self):
+    def backButtonCallback(self, channel):
         tempTime = time.time()
         if(tempTime - self.debounceTimestamp) >= 0.3:
             self.menuSystem.backButtonCallback()
         self.debounceTimestamp = tempTime
 
-    def setButtonCallback(self):
+    def setButtonCallback(self, channel):
         tempTime = time.time()
         if(tempTime - self.debounceTimestamp) >= 0.3:
             self.menuSystem.setButtonCallback()
