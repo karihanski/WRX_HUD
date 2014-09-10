@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hardware/Keypad/Keypad.py" />
-      <change type="MOVED" beforePath="C:\Users\Adam\Documents\GitHub\WRX_HUD\TestCase\TestMenuAndButtons.py" afterPath="$PROJECT_DIR$/TestMenuAndButtons.py" />
+      <change type="MOVED" beforePath="C:\Users\Adam\Documents\GitHub\WRX_HUD\Hardware\KeyPad\Keypad.py" afterPath="$PROJECT_DIR$/Hardware/Input/Keypad.py" />
+      <change type="MOVED" beforePath="C:\Users\Adam\Documents\GitHub\WRX_HUD\Hardware\KeyPad\__init__.py" afterPath="$PROJECT_DIR$/Hardware/Input/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestMenuAndButtons.py" afterPath="$PROJECT_DIR$/TestMenuAndButtons.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WRX_HUD.iws" />
@@ -29,10 +30,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="TestSH1106FontTest.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="TestSH1106FontTest.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/TestCase/TestSH1106FontTest.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.20847268" vertical-offset="0" max-vertical-offset="897">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
                   <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
@@ -51,10 +52,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TestMenuAndButtons.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="TestMenuAndButtons.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/TestMenuAndButtons.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
                   <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
                   <folding />
                 </state>
@@ -120,7 +121,7 @@
       <split-second>
         <leaf>
           <file leaf-file-name="Keypad.py" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Hardware/Keypad/Keypad.py">
+            <entry file="file://$PROJECT_DIR$/Hardware/Input/Keypad.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.6304348" vertical-offset="49" max-vertical-offset="969">
                   <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
@@ -194,6 +195,7 @@
         <option value="$PROJECT_DIR$/Hardware/Keypad/Keypad.py" />
         <option value="$PROJECT_DIR$/MenuSystem/MainMenuContext.py" />
         <option value="$PROJECT_DIR$/TestCase/TestMenuAndButtons.py" />
+        <option value="$PROJECT_DIR$/TestMenuAndButtons.py" />
       </list>
     </option>
   </component>
@@ -322,7 +324,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Keypad" />
+              <option name="myItemId" value="Input" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -796,19 +798,23 @@
       <created>1410313892432</created>
       <updated>1410313892432</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Added test for buttons and menuing system.">
+      <created>1410314070282</created>
+      <updated>1410314070282</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16614583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16614583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1194,7 +1200,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hardware/Keypad/Keypad.py">
+    <entry file="file://$PROJECT_DIR$/Hardware/Input/Keypad.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6304348" vertical-offset="49" max-vertical-offset="969">
           <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
@@ -1240,11 +1246,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestMenuAndButtons.py">
+    <entry file="file://$PROJECT_DIR$/TestCase/TestSH1106FontTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
-          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1256,13 +1264,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/TestSH1106FontTest.py">
+    <entry file="file://$PROJECT_DIR$/TestMenuAndButtons.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20847268" vertical-offset="0" max-vertical-offset="897">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
