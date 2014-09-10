@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29debc9c-cb47-4156-a319-5411712143aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hardware/Input/Keypad.py" afterPath="$PROJECT_DIR$/Hardware/Input/Keypad.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MenuSystem/MainMenuContext.py" afterPath="$PROJECT_DIR$/MenuSystem/MainMenuContext.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WRX_HUD.iws" />
@@ -40,11 +40,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MenuManager.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="MenuManager.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/MenuSystem/MenuManager.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.13266444" vertical-offset="0" max-vertical-offset="935">
-                  <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+                  <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                   </folding>
@@ -116,6 +116,18 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="MainMenuContext.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/MenuSystem/MainMenuContext.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.86538464" vertical-offset="0" max-vertical-offset="901">
+                  <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#32#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -127,18 +139,6 @@
                   <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#23#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MainMenuContext.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/MenuSystem/MainMenuContext.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="918">
-                  <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#0#32#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -203,12 +203,12 @@
         <option value="$PROJECT_DIR$/TestCase/TestMenuAndButtons.py" />
         <option value="$PROJECT_DIR$/TestMenuAndButtons.py" />
         <option value="$PROJECT_DIR$/MenuSystem/MenuManager.py" />
-        <option value="$PROJECT_DIR$/MenuSystem/MainMenuContext.py" />
         <option value="$PROJECT_DIR$/MenuSystem/MenuContext.py" />
         <option value="$PROJECT_DIR$/MenuSystem/MonitoredParameterContext.py" />
         <option value="$PROJECT_DIR$/MenuSystem/PeakBoostContext.py" />
         <option value="$PROJECT_DIR$/MenuSystem/DtcCodeContext.py" />
         <option value="$PROJECT_DIR$/Hardware/Input/Keypad.py" />
+        <option value="$PROJECT_DIR$/MenuSystem/MainMenuContext.py" />
       </list>
     </option>
   </component>
@@ -839,7 +839,11 @@
       <created>1410315466066</created>
       <updated>1410315466066</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Added test for buttons and menuing system.">
+      <created>1410315731741</created>
+      <updated>1410315731741</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1229,16 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MenuSystem/MainMenuContext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="918">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MenuSystem/DtcCodeContext.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
@@ -1283,16 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hardware/Input/Keypad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7967391" vertical-offset="49" max-vertical-offset="969">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestMenuAndButtons.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -1305,10 +1289,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MenuSystem/MenuManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13266444" vertical-offset="0" max-vertical-offset="935">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hardware/Input/Keypad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7967391" vertical-offset="49" max-vertical-offset="969">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MenuSystem/MainMenuContext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86538464" vertical-offset="0" max-vertical-offset="901">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

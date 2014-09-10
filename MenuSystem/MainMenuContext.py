@@ -7,7 +7,7 @@ class MainMenuContext(MenuContext):
     def __init__(self, inManager, inLcd):
         super(MainMenuContext, self).__init__(inManager, inLcd)
         self.title = "Main"         #Title to display at the top of the display when this menu is active.
-        self.entries = ["Monitored SSM Parameters", "Peak Boost"]           #Holds a reference to all the possible entries in the menu
+        self.entries = ["SSM Parameters", "Peak Boost", "Test1", "Test2"]           #Holds a reference to all the possible entries in the menu
 
     """
     Used to display the menu data on the LCD
@@ -15,9 +15,8 @@ class MainMenuContext(MenuContext):
     def initDisplay(self):
         self.lcd.displayString(self.title, 0, 0)
         self.lcd.displayString("-----------------------------------", 1, 0)
-        self.lcd.displayInvertedString(self.entries[0], 2, 17)
-        for i in range(1, len(self.entries) - 1):
-            self.lcd.displayString[self.entries[i], i+1, ]
+        for i in range(0, len(self.entries)-1):
+            self.lcd.displayString(self.entries[i], i+2, 17)
         self.lcd.displayString(">", 2, 5)
 
     def updateDisplay(self):
