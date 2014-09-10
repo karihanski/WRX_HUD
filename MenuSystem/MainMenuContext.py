@@ -5,7 +5,7 @@ from MenuSystem.MenuContext import *
 class MainMenuContext(MenuContext):
 
     def __init__(self, inManager, inLcd):
-        super.__init__(inManager, inLcd)
+        super(MainMenuContext, self).__init__(inManager, inLcd)
         self.title = "Main"         #Title to display at the top of the display when this menu is active.
         self.entries = ["Monitored SSM Parameters", "Peak Boost"]           #Holds a reference to all the possible entries in the menu
 
