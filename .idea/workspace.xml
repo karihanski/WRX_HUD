@@ -119,8 +119,8 @@
           <file leaf-file-name="MainMenuContext.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/MenuSystem/MainMenuContext.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.86538464" vertical-offset="0" max-vertical-offset="901">
-                  <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.75" vertical-offset="136" max-vertical-offset="1037">
+                  <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#32#0" expanded="true" />
                   </folding>
@@ -843,7 +843,11 @@
       <created>1410315731741</created>
       <updated>1410315731741</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Added test for buttons and menuing system.">
+      <created>1410316117988</created>
+      <updated>1410316117988</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1309,8 +1313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MenuSystem/MainMenuContext.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86538464" vertical-offset="0" max-vertical-offset="901">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.75" vertical-offset="136" max-vertical-offset="1037">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
