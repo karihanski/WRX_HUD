@@ -9,30 +9,41 @@ class MainMenuContext(MenuContext):
         self.title = "Main"         #Title to display at the top of the display when this menu is active.
         self.entries = ["Monitored SSM Parameters", "Peak Boost"]           #Holds a reference to all the possible entries in the menu
 
-
     """
     Used to display the menu data on the LCD
     """
     def initDisplay(self):
         self.lcd.displayString(self.title, 0, 0)
         self.lcd.displayString("-----------------------------------", 1, 0)
-        self.lcd.displayInvertedString(self.entries[0], 2, 15)
+        self.lcd.displayInvertedString(self.entries[0], 2, 17)
         for i in range(1, len(self.entries) - 1):
             self.lcd.displayString[self.entries[i], i+1, ]
         self.lcd.displayString(">", 2, 5)
 
     def updateDisplay(self):
-        pass
+        #Wipe arrow on the last line
+        self.lcd.displayString(" ", self.lastEntry+2, 5)
+        #Point arrow to new line
+        self.lcd.displayString(">", self.currentEntry+2, 5)
 
     """
     Callback methods that perform an action for a button press based on which menu the user is in.
     Need to be implemented by child classes
     """
     def onUp(self):
-        pass
+        if self.currentEntry > 0:
+            self.lastEntry = self.currentEntry
+            self.currentEntry -= 1
+            self.updateDisplay()
+
     def onDown(self):
-        pass
+        if self.currentEntry < len(self.entries)-1:
+            self.lastEntry = self.currentEntry
+            self.currentEntry += 1
+            self.updateDisplay()
+
     def onSet(self):
-        pass
+        self.lcd.displayString("*", self.currentEntry+2, 11)
+
     def onBack(self):
         pass
