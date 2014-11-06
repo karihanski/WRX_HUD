@@ -107,8 +107,8 @@
           <file leaf-file-name="TestMenuSystem.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/TestMenuSystem.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.036956523" vertical-offset="0" max-vertical-offset="920">
-                  <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+                <state vertical-scroll-proportion="0.46195653" vertical-offset="0" max-vertical-offset="920">
+                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#46#0" expanded="true" />
                   </folding>
@@ -801,7 +801,11 @@
       <created>1415247167945</created>
       <updated>1415247167945</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Menu system test case work.">
+      <created>1415247433924</created>
+      <updated>1415247433924</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -843,7 +847,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Bug fix for filenames, again" />
     <MESSAGE value="Testing multi-threaded use of both I2C buses concurrently." />
     <MESSAGE value="Testing serial cable in car" />
     <MESSAGE value="Testing serial cable in conjunction with LCDs" />
@@ -868,7 +871,8 @@
     <MESSAGE value="Added test for buttons and menuing system." />
     <MESSAGE value="Moved test cases to main folder to get around path issues with the raspberry pi." />
     <MESSAGE value="Fixed text inversion on the SH1106 where the original text was being ANDed with 0x7f instead of 0xff leaving a strange void under characters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed text inversion on the SH1106 where the original text was being ANDed with 0x7f instead of 0xff leaving a strange void under characters." />
+    <MESSAGE value="Menu system test case work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu system test case work." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1246,8 +1250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestMenuSystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.036956523" vertical-offset="0" max-vertical-offset="920">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.46195653" vertical-offset="0" max-vertical-offset="920">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
